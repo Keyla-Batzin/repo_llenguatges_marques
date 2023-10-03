@@ -1,45 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> 
+<html lang="es"> 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notícies ITIC</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Notícies ITIC</title> <!-- Establece el título de la página en la barra del navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Enlaza un archivo CSS externo llamado "style.css" para estilos -->
 </head>
-<a href="practica1.html">Página Home</a>
 <body>
-    <h1 id="title1">Espai Publitari</h1>
-    <table class="table"> 
-        <caption>Últims llançaments musicals</caption>
-        <thead>
-            <tr>
-                <th colspan="2">Cançó</th>
-                <th>Llançament</th>
-                <th>Plataforma</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td >Rush, per Troye Sivan</td>
-                <td>1 de juny, 2023</td>
-                <td>Youtube, Spotify, MyMusic</td>
-            </tr>
-        </tbody>
-        <tbody>
-            <tr>
-                <td>Labour, per Paris Paloma</td>
-                <td>1 de Setembre, 2023</td>
-                <td>Youtube, Spotify</td>
-            </tr>
-        </tbody>
-        <tbody>
-            <tr>
-                <td>Francesca, by Hozier</td>
-                <td>1 de Setembre, 2023</td>
-                <td>Youtube, Spotify, MyMusic</td>
-            </tr>
-        </tbody>
-    </table>
-    
+    <a id="link" href="practica1.html">Página Home</a> <!-- Enlace a "practica1.html"-->
+    <h1 id="title1">Espai Publitari</h1> <!-- Encabezado de nivel 1 con el id "title1" -->
+    <!-- Un div con la clase "table-container" para contener la tabla -->
+    <div class="table-container">
+         <!-- Inicio de la tabla con la clase "table" -->
+        <table class="table">
+            <!-- Título de la tabla -->
+            <caption id="title-table">Últims llançaments musicals</caption> 
+            <thead>
+                <tr> <!-- Fila de encabezado de la tabla -->
+                    <th class="song-column">Cançó</th> <!-- Encabezado de columna con la clase "song-column"-->
+                    <th class="date-column">Llançament</th> <!-- Encabezado de columna con la clase "date-column" -->
+                    <th class="platform-column">Plataforma</th> <!-- Encabezado de columna con la clase "platform-column"-->
+                </tr>
+            </thead>
+            <tbody>
+                <tr> <!-- Primera fila de datos de la tabla -->
+                    <td>Rush, por Troye Sivan</td> 
+                    <td>1 de junio, 2023</td> 
+                    <td>Youtube, Spotify, MyMusic</td> 
+                </tr>
+                <tr> <!-- Segunda fila de datos de la tabla -->
+                    <td>Labour, por Paris Paloma</td>
+                    <td>1 de septiembre, 2023</td> 
+                    <td>Youtube, Spotify</td> 
+                </tr>
+                <tr> <!-- Tercera fila de datos de la tabla -->
+                    <td>Francesca, por Hozier</td> 
+                    <td>1 de septiembre, 2023</td> 
+                    <td>Youtube, Spotify, MyMusic</td> 
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>

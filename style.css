@@ -1,3 +1,39 @@
-*{
-    text-align: center;
+/* Estilo del titulo con el id "title1"*/
+#title1 {
+    text-align: center; /* Centra el texto del elemento con el id "title1" */
+    font-weight: bold; /* Titulo en negrita */
+    color: blueviolet; /* Color del titulo */
+}
+
+
+/* Estilo del titulo con el id "title-table"*/
+#title-table{
+    color: blue; /* Color del titulo de la tabla*/
+}
+
+/* Estilos para la tabla */
+thead{
+    background-color: rgb(179, 179, 179); /* Color de relleno de las celdas de los titulos*/
+}
+
+.table {
+    border-collapse: collapse; /* Combinamos los bordes de las celdas para evitar espacios entre ellas */
+    margin: 20px auto; /* Establece un margen vertical de 20px y un margen horizontal automático (centrado horizontalmente) para el elemento con la clase "table" */
+}
+
+/* Estilos para todas las celdas (tanto encabezados de columna como celdas de datos) */
+.table th,
+.table td {
+    border: 1px solid black; /* Agrega un borde de 1 píxel sólido en todas las celdas */
+    padding: 2px; /* Agrega un espaciado interno de 8 píxeles en todas las celdas */
+    text-align: center; /* Centra el contenido de todas las celdas horizontalmente */
+}
+
+/* Estilos para las columnas */
+.song-column {
+    width: 60%; /* Establece un ancho del 60% para las celdas de la columna con la clase "song-column" */
+}
+
+.date-column, .platform-column {
+    width: 20%; /* Establece un ancho del 20% para las celdas de las columnas con las clases "date-column" y "platform-column" */
 }
