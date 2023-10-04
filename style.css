@@ -7,12 +7,12 @@
 
 
 /* Estilo del titulo con el id "title-table"*/
-#title-table{
+#title-table {
     color: blue; /* Color del titulo de la tabla*/
 }
 
 /* Estilos para la tabla */
-thead{
+thead {
     background-color: rgb(179, 179, 179); /* Color de relleno de las celdas de los titulos*/
 }
 
@@ -34,6 +34,7 @@ thead{
     width: 60%; /* Establece un ancho del 60% para las celdas de la columna con la clase "song-column" */
 }
 
-.date-column, .platform-column {
+.date-column,
+.platform-column {
     width: 20%; /* Establece un ancho del 20% para las celdas de las columnas con las clases "date-column" y "platform-column" */
 }
