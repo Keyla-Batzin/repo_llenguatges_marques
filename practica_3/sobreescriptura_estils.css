@@ -4,7 +4,7 @@ body {
 }
 
 /*2. titol nivell 1 fons blanc lletra gris*/
-div > h1 {
+div>h1 {
     background-color: white;
     color: gray;
 }
@@ -17,14 +17,23 @@ div > h1 {
 }
 
 /*4. enllaços del paràgraf2 en italica*/
-.paragraf2 a{
+.paragraf2 a {
     color: #0234a8;
     font-style: italic;
 }
+
 /*5. footer general del web centrat i lletra de 10px*/
-footer{
+footer {
     text-align: center;
     font-size: 10px;
 }
-/*6. Canvia l'ordre de càrrega dels fitxers i mira què passa. Sabries modificar el teu codi per a que se seguís veient igual que abans de canviar l'ordre?*/
-/* */
+
+/*6. Canvia l'ordre de càrrega dels fitxers i mira què passa. Sabries modificar el teu codi per a que se seguís veient igual que abans de canviar l'ordre?
+
+Quins elements passen a veure’s diferent i quins es continuen veient tal com tu havies definit? Per què?
+ - Si posem al final el CSS de l'estil inicial, canvia el color dels h2 a gris i la classe 'paràgraf2' té més prioritat, així que es posa blau en comptes de verd. A part d'això, no canvia res més.
+
+Com ho faries perquè tots els elements es continuïn veient tal com es veia abans d’invertir l’ordre de càrrega? Proposa un codi CSS.
+ - Canviant l'ordre de càrrega dels fitxers CSS, alguns elements poden veure's diferents.
+   Per mantenir els estils originals, augmenta la especificitat dels selectors CSS a "sobreescriptura_estils.css" i utilitza !important quan sigui necessari.
+*/
