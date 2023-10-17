@@ -1,0 +1,19 @@
+*{
+    background-color: rgb(252, 237, 219);
+    font-family: Arial;
+}
+
+h1{
+    color: orange;
+}
+
+label{
+    padding-right: 90px;
+}
+
+input{
+    background-color: white;
+    width: 300px;
+
+}
+
