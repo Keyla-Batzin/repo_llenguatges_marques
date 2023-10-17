@@ -1,19 +1,12 @@
-*{
-    background-color: rgb(252, 237, 219);
-    font-family: Arial;
+* {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1{
-    color: orange;
+#button {
+    background-color: aquamarine;
+    font-size: 14px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    
 }
-
-label{
-    padding-right: 90px;
-}
-
-input{
-    background-color: white;
-    width: 300px;
-
-}
-
