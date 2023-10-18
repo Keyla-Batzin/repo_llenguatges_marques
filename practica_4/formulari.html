@@ -8,20 +8,48 @@
     <title>Formulari</title>
 </head>
 
+
 <body>
-    <h1>Subscriu-te al noticiari ITIC Barcelona</h1>
+    <h1>Solicituts per a la playlist del centre, 2023</h1>
     <form action="formulari_enviat.html"></form>
-    <h4>Primer, explica'ns qui ets</h4>
-        <label for="forEmail">Email:</label> <input id="forEmail" type="email" name="apartat1"><br>
-        <label for="forNomCognom">Nom i Cognom:</label> <input id="forNomCognom" type="text" name="apartat1"><br>
-        <label for="forAge">Edat:</label> <input id="forAge" type="number" name="apartat1"><br>
-        <br>
-    <h4>Quin cicle estàs estudiant?</h4>
-        <label for="forPrueba">Prueba</label> <input id="forPrueba" type="checkbox"><br>
+
+    <h4>Dades de identificació</h4>
+
+        <table>
+            <tr>
+                <th><label for="forEmail">Email:</label> </th>
+                <input id="forEmail" type="email" name="apartat1">
+            </tr>
+            <tr>
+                <th><label for="forNomCognom">Nom i cognom:</label> <br></th>
+                <input id="forNomCognom" type="text" name="apartat1">
+            </tr>
+            <tr>
+                <th><label for="forAge">Edat:</label> <br></th>
+                <input id="forAge" type="number" name="apartat1">
+            </tr>
+
+        </table>
 
         <br>
-        <input type="button" value="Enviar" id="boton">
-    </form>
+        <br>
+    
+    <h4>Quin cicle estudies?</h4>
+
+        
+        <form>
+
+            <input type="radio" id="forAsix" name="cicle" value="ASIX">
+            <label for="forAsix">ASIX:</label><br>
+            <input id="forDAM" type="radio" name="cicle" value="DAM">
+            <label for="forDAM">DAM:</label><br>
+            <input id="forDAW" type="radio" name="cicle" value="DAW">
+            <label for="forDAW">DAW:</label>
+            
+        <form>
+        <br>        
+
+
 </body>
 
 </html>
