@@ -1,10 +1,9 @@
-<<<<<<< HEAD
-*{
-    background-color:ivory;
+* {
+    background-color: ivory;
     font-family: Arial;
 }
 
-=======
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -12,16 +11,16 @@
 
 input {
     margin-top: 0.5rem;
-  }
-  
-  input::placeholder {
+}
+
+input::placeholder {
     font-weight: bold;
     opacity: 0.5;
     color: red;
-  }
-  
+}
 
-#box{
+
+#box {
     width: 300px;
     height: 200px;
 }
@@ -32,7 +31,6 @@ input {
     background-color: rgb(131, 255, 112);
     font-size: 14px;
     padding: 5px 20px;
-    border-radius: 8px;  
+    border-radius: 8px;
     margin-right: ;
 }
->>>>>>> origin/keyla
