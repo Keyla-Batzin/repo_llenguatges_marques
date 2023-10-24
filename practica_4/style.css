@@ -1,0 +1,22 @@
+* {
+    font-family: 'Arial', sans-serif;
+    color: #448c31;
+}
+
+
+/* Estilos para el botón */
+#button {
+    background-color: #448c31;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+#button:hover {
+    background-color: white;
+    color: #448c31;
+}

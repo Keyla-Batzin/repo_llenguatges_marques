@@ -34,6 +34,7 @@ h4 {
     width: 100px;
 }
 
+
 /* Estilos para el botón */
 #button {
     background-color: #448c31;
@@ -44,6 +45,11 @@ h4 {
     border-radius: 8px;
     cursor: pointer;
     margin: 10px 0;
+}
+
+#button:hover {
+    background-color: white;
+    color: #448c31;
 }
 
 table th {
