@@ -25,9 +25,10 @@ h4 {
     background-color: #c8e6c9;
     border: 1px solid #448c31;
     font-size: 16px;
-    padding: 10px;
+    padding: 5px;
     margin: 10px 0;
-    resize: none; /* Evita que se pueda redimensionar el textarea */
+    resize: none;
+    /* Evita que se pueda redimensionar el textarea */
 }
 
 /* Estilos para el botón */
@@ -43,5 +44,7 @@ h4 {
 }
 
 table th {
-    text-align: left; /* Alinea el texto de las columnas de la tabla a la izquierda */
+    text-align: left;
+    /* Alinea el texto de las columnas de la tabla a la izquierda */
+
 }
