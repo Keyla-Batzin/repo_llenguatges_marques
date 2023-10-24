@@ -16,29 +16,32 @@
         <table>
             <tr>
                 <th><label for="forEmail">Email:</label></th>
-                <td><input id="forEmail" type="email" name="apartat1"></td>
+                <td><input id="forEmail" type="email" name="apartat1" required></td>
             </tr>
             <tr>
                 <th><label for="forNomCognom">Nom i cognom:</label></th>
-                <td><input id="forNomCognom" type="text" name="apartat2"></td>
+                <td><input id="forNomCognom" type="text" name="apartat2" required></td>
             </tr>
             <tr>
                 <th><label for="forAge">Edat:</label></th>
-                <td><input id="forAge" type="number" name="apartat3"></td>
+                <td><input id="forAge" type="number" name="apartat3" required></td>
             </tr>
         </table>
 
         <h4>Quin cicle estudies?</h4>
 
-        <form>
-            <input type="radio" id="forAsix" name="cicle" value="ASIX">
-            <label for="forAsix">ASIX</label><br>
-            <input id="forDAM" type="radio" name="cicle" value="DAM">
-            <label for="forDAM">DAM</label><br>
-            <input id="forDAW" type="radio" name="cicle" value="DAW">
-            <label for="forDAW">DAW</label>
-        </form>
-        
+        <input type="radio" id="forAsix" name="cicle" value="ASIX">
+        <label for="forAsix">ASIX</label><br>
+        <input id="forDAM" type="radio" name="cicle" value="DAM">
+        <label for="forDAM">DAM</label><br>
+        <input id="forDAW" type="radio" name="cicle" value="DAW">
+        <label for="forDAW">DAW</label>
+
+        <br>
+        <br>
+        <label for="questionCurs">I quin curs?</label>
+        <input type="tel" name="phone" minlength="9" maxlength="9" placeholder="A de ser o A o B" />
+
         <div>
             <p>No sé què posar encara :D</p>
             <select name="opcions" id="opcionsCanco">
@@ -59,10 +62,12 @@
         <label for="forCancion3">Cançó Prova 3</label>
 
         <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis.</h4>
-        <textarea name="nombredelacaja" id="box" rows="5" cols="50" placeholder="Texto de ejemplo"></textarea>
+        <textarea name="nombredelacaja" id="box" placeholder="Texto de ejemplo"></textarea>
 
         <br><br>
-        <input type="submit" value="Enviar" id="button" onclick="location.href='formulari_enviat.html'">
+        
+        <input type="submit" value="Enviar" id="button" ">
+
     </form>
 </body>
 
