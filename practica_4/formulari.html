@@ -9,129 +9,70 @@
 </head>
 
 <body>
-    <h1>Sol·licituds per a la playlist del centre, 2023</h1>
-    <form action="formulari_enviat.html">
-        <h4>Dades de identificació</h4>
+<h1>Sol·licituds per a la playlist del centre, 2023</h1>
+<form action="formulari_enviat.html">
+    <h4>Dades de identificació</h4>
 
-        <table style="width: 50%;">
-            <tr>
-                <td><label for="forEmail">Email:</label> </td>
-                <td><input id="forEmail" type="email" name="apartat1"></td>
-                
-            </tr>
-            <tr>
-                <td><label for="forNomCognom">Nom i cognom:</label> <br></td>
-                <td><input id="forNomCognom" type="text" name="apartat1"></td>
-                
-            </tr>
-            <tr>
-                <td><label for="forAge">Edat:</label> <br></td>
-                <td><input id="forAge" type="number" name="apartat1"></td>
-                
-            </tr>
+    <table style="width: 50%;">
+        <tr>
+            <td><label for="forEmail">Email:</label></td>
+            <td><input id="forEmail" type="email" name="apartat1"></td>
+        </tr>
+        <tr>
+            <td><label for="forNomCognom">Nom i cognom:</label> <br></td>
+            <td><input id="forNomCognom" type="text" name="apartat1"></td>
+        </tr>
+        <tr>
+            <td><label for="forAge">Edat:</label> <br></td>
+            <td><input id="forAge" type="number" name="apartat1"></td>
+        </tr>
 
-        </table>
+    </table>
 
-        <br>
-        <br>
-    
+
     <h4>Quin cicle estudies?</h4>
 
-        <form>
+    <input type="radio" id="forAsix" name="cicle" value="ASIX">
+    <label for="forAsix">ASIX:</label><br>
+    <input id="forDAM" type="radio" name="cicle" value="DAM">
+    <label for="forDAM">DAM:</label><br>
+    <input id="forDAW" type="radio" name="cicle" value="DAW">
+    <label for="forDAW">DAW:</label>
+    <br>
 
-            <input type="radio" id="forAsix" name="cicle" value="ASIX">
-            <label for="forAsix">ASIX:</label><br>
-            <input id="forDAM" type="radio" name="cicle" value="DAM">
-            <label for="forDAM">DAM:</label><br>
-            <input id="forDAW" type="radio" name="cicle" value="DAW">
-            <label for="forDAW">DAW:</label>
-            <br>
-            <br>
+    <label id="questionCurs"></label><br/>
+    <label for="questionCurs">I quina classe?</label><br/>
+    <input type="email" name="curs" minlength="1" maxlength="1" />
 
-                <label for="questionCurs">I quin curs?</label><br />
-                <input type="tel" name="phone" minlength="9" maxlength="9" placeholder="A de ser o A o B" />
-
-            <form>
-                
-
-                <div>
-                    <p>No se que poner aún :D</p>
-                    <select name="opcions" id="opcionsCanco">
-                        <option value="1">Opcion1</option>
-                        <option value="2">Opcion2</option>
-                        <option value="3">Opcion3</option>
-                    </select>
-                </div>
-
-                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis.</h4>
-                <input id="forCancion1" type="checkbox">
-                <label for="forCancion1">Canción Prueba1</label><br>
-
-                <input id="forCancion2" type="checkbox">
-                <label for="forCancion2">Canción Prueba2</label><br>
-
-                <input id="forCancion3" type="checkbox">
-                <label for="forCancion3">Canción Prueba3</label>
-
-                <br>
-                <h4>Afegeix altres cançons que tu vulguis.</h4>
-                <input type="text" name="nombredelacaja" id="box">
-                <br><br>
-                <input type="button" value="Enviar" id="button" placeholder="Ingresa la teva canço!!">
-
-                <br><br>
-
-
-
-            </form>
-    </body>
-
-        
-        <form>
-
-            <input type="radio" id="forAsix" name="cicle" value="ASIX">
-            <label for="forAsix">ASIX:</label><br>
-            <input id="forDAM" type="radio" name="cicle" value="DAM">
-            <label for="forDAM">DAM:</label><br>
-            <input id="forDAW" type="radio" name="cicle" value="DAW">
-            <label for="forDAW">DAW:</label>
-            
-        <form>
-        <br>        
-
-
-
-    <form action="formulari_enviat.html"></form>
-
-    <label for="first-name">Your phone number:</label><br/>
-    <input type="tel" name="phone" minlength="9" maxlength="9" placeholder="It must be 9 digits" />
 
     <div>
-        <p>No se que poner aún :D</p>
+        <p>En quin pis de les nostres instalacions estudies?</p>
         <select name="opcions" id="opcionsCanco">
-            <option value="1">Opcion1</option>
-            <option value="2">Opcion2</option>
-            <option value="3">Opcion3</option>
+            <option value="1">Planta baixa</option>
+            <option value="2">Pis 4</option>
+            <option value="3">Pis 5</option>
         </select>
     </div>
 
-    <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis.</h4>
+    <h4>Escull entre les propostes més populars aquesta setmana.</h4>
     <input id="forCancion1" type="checkbox">
-    <label for="forCancion1">Canción Prueba1</label><br>
+    <label for="forCancion1">Go, per SantiGold</label><br>
 
     <input id="forCancion2" type="checkbox">
-    <label for="forCancion2">Canción Prueba2</label><br>
-    
+    <label for="forCancion2">Dear Arkansas daughter, per Lady Lamb</label><br>
+
     <input id="forCancion3" type="checkbox">
-    <label for="forCancion3">Canción Prueba3</label>
+    <label for="forCancion3">Are you ready, per Maneskin</label>
 
     <br>
-    <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis.</h4>
-        <textarea name="nombredelacaja" id="box" rows="5" cols="50" placeholder="Texto de ejemplo"></textarea>
+    <h4>Afegeix altres cançons que tu vulguis.</h4>
+    <input type="text" name="nombredelacaja" id="box">
+    <br><br>
+    <input type="button" value="Enviar" id="button" placeholder="Ingresa la teva cançó!!">
+    <br><br>
 
-        <br><br>
-        <input type="button" value="Enviar" id="button" onclick="location.href='formulari_enviat.html'">
-    </form>
+
+</form>
 </body>
 
 </html>

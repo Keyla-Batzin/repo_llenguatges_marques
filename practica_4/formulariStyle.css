@@ -30,6 +30,9 @@ h4 {
     resize: none;
     /* Evita que se pueda redimensionar el textarea */
 }
+#forage {
+    width: 100px;
+}
 
 /* Estilos para el botón */
 #button {
