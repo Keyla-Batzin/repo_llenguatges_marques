@@ -1,36 +1,50 @@
+/* Estilos generales */
 * {
-    background-color: ivory;
-    font-family: Arial;
+    font-family: 'Arial', sans-serif;
 }
 
-
-* {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+    background-color: #f0f5e6;
+    margin: 0;
+    padding: 0;
 }
 
-
-input {
-    margin-top: 0.5rem;
+h1 {
+    text-align: center;
+    color: #448c31;
 }
 
-input::placeholder {
-    font-weight: bold;
-    opacity: 0.5;
-    color: red;
+h4 {
+    color: #448c31;
 }
 
-
+/* Estilos para la caja de texto */
 #box {
-    width: 300px;
-    height: 200px;
+    width: 25%;
+    height: 100px;
+    background-color: #c8e6c9;
+    border: 1px solid #448c31;
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px 0;
+    resize: none;
+    /* Evita que se pueda redimensionar el textarea */
 }
 
-
-
+/* Estilos para el botón */
 #button {
-    background-color: rgb(131, 255, 112);
-    font-size: 14px;
-    padding: 5px 20px;
+    background-color: #448c31;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
     border-radius: 8px;
-    margin-right: ;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+table th {
+    text-align: left;
+    /* Alinea el texto de las columnas de la tabla a la izquierda */
+
 }
