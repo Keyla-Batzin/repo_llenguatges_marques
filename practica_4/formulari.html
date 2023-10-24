@@ -9,34 +9,30 @@
 </head>
 
 <body>
-    <h1>Solicituts per a la playlist del centre, 2023</h1>
-    <form action="formulari_enviat.html"></form>
-
-    <h4>Dades de identificació</h4>
+    <h1>Sol·licituds per a la playlist del centre, 2023</h1>
+    <form action="formulari_enviat.html">
+        <h4>Dades de identificació</h4>
 
         <table style="width: 50%;">
             <tr>
-                <td><label for="forEmail">Email:</label> </td>
-                <td><input id="forEmail" type="email" name="apartat1"></td>
-                
+                <th><label for="forEmail">Email:</label> </th>
+                <input id="forEmail" type="email" name="apartat1">
             </tr>
             <tr>
-                <td><label for="forNomCognom">Nom i cognom:</label> <br></td>
-                <td><input id="forNomCognom" type="text" name="apartat1"></td>
-                
+                <th><label for="forNomCognom">Nom i cognom:</label> <br></th>
+                <input id="forNomCognom" type="text" name="apartat1">
             </tr>
             <tr>
-                <td><label for="forAge">Edat:</label> <br></td>
-                <td><input id="forAge" type="number" name="apartat1"></td>
-                
+                <th><label for="forAge">Edat:</label> <br></th>
+                <input id="forAge" type="number" name="apartat1">
             </tr>
-
         </table>
 
         <br>
         <br>
     
     <h4>Quin cicle estudies?</h4>
+
         <form>
 
             <input type="radio" id="forAsix" name="cicle" value="ASIX">
@@ -85,5 +81,58 @@
 
             </form>
     </body>
+
+        
+        <form>
+
+            <input type="radio" id="forAsix" name="cicle" value="ASIX">
+            <label for="forAsix">ASIX:</label><br>
+            <input id="forDAM" type="radio" name="cicle" value="DAM">
+            <label for="forDAM">DAM:</label><br>
+            <input id="forDAW" type="radio" name="cicle" value="DAW">
+            <label for="forDAW">DAW:</label>
+            
+        <form>
+        <br>        
+
+
+
+    <form action="formulari_enviat.html"></form>
+
+    <label for="first-name">Your phone number:</label><br/>
+    <input type="tel" name="phone" minlength="9" maxlength="9" placeholder="It must be 9 digits" />
+
+    <div>
+        <p>No se que poner aún :D</p>
+        <select name="opcions" id="opcionsCanco">
+            <option value="1">Opcion1</option>
+            <option value="2">Opcion2</option>
+            <option value="3">Opcion3</option>
+        </select>
+    </div>
+
+    <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis.</h4>
+    <input id="forCancion1" type="checkbox">
+    <label for="forCancion1">Canción Prueba1</label><br>
+
+    <input id="forCancion2" type="checkbox">
+    <label for="forCancion2">Canción Prueba2</label><br>
+    
+    <input id="forCancion3" type="checkbox">
+    <label for="forCancion3">Canción Prueba3</label>
+
+    <br>
+    <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis.</h4>
+    <input type="text" name="nombredelacaja" id="box" placeholder="It must be 9 digits">
+    <br><br>
+    <input type="button" value="Enviar" id="button">
+
+    <br><br>
+    
+
+
+    </form>
+</body>
+>>>>>>> e5633d1ed333605f839b27b8dd8c54433d7429f6
 
 </html>
