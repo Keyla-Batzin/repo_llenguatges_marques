@@ -1,0 +1,13 @@
+*{
+    font-family: system-ui;
+}
+
+.apartado {
+    background-color: rgb(234, 234, 234);
+    padding: 15px 0px 10px 30px; /*top right bottom left*/
+    margin-bottom: 10px;
+}
+
+#margen {   
+    margin: 30px 30px; /* top-bottom left-right*/
+}
