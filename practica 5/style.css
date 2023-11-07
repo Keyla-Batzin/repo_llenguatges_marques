@@ -1,8 +1,17 @@
 /* Estils generals de la pàgina */
-
+*{
+    font-family: system-ui;
+}
 
 header{
     background-color: rgb(32,32,32);
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: -22px 0px 0px 0px;
+    padding: 0%;
 }
 
 h1 {
@@ -27,4 +36,16 @@ footer{
     text-align: center;
     background-color:rgb(32,32,32);
     color: whitesmoke;
+}*{
+    font-family: system-ui;
+}
+
+.apartado {
+    background-color: rgb(234, 234, 234);
+    padding: 15px 0px 10px 30px; /*top right bottom left*/
+    margin-bottom: 10px;
+}
+
+#margen {   
+    margin: 30px 30px; /* top-bottom left-right*/
 }
