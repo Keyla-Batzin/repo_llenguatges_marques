@@ -27,6 +27,14 @@ table th {
     text-align: left;
 }
 
+.input-corto {
+    width: 300px;
+}
+
+#forAge {
+    width: 100px;
+}
+
 /* Estilos para la caja de texto */
 #box {
     width: 25%;
