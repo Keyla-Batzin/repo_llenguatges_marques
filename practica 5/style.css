@@ -1,51 +1,71 @@
 /* Estils generals de la pàgina */
-*{
+
+/* Configura el tipo de fuente para todos los elementos en la página */
+* {
     font-family: system-ui;
 }
 
-header{
-    background-color: rgb(32,32,32);
-    margin: 0%;
-    padding: 0%;
+header {
+    /* Estilos para la cabecera (encabezado) */
+    background-color: rgb(32, 32, 32); 
+    position: fixed; /* Fijar en la parte superior de la página */
+    top: 0px;
+    width: 100%; /* Ancho del 100% */
 }
 
-body{
-    margin: -22px 0px 0px 0px;
+nav {
+    /* Estilos para la barra de navegación */
+    text-align: center;
+    padding-bottom: 10px; /* Espaciado inferior */
+    position: sticky; /* Posición Sicky*/
+    top: 0;
+}
+
+body {
+    margin: 0px; 
     padding: 0%;
 }
 
 h1 {
+    /* Estilos para el título principal */
     padding: 10px;
     text-align: center;
-    background-color:rgb(32,32,32);
+    background-color: rgb(32, 32, 32); 
     color: whitesmoke;
-    height: 25px;    
+    height: 20px;
 }
 
-nav{
-    text-align: center;
-    padding-bottom: 10px;
-    height: 10px;
-    padding-bottom: 15px;
-}
-a{
+a {
+    /* Estilos para enlaces */
     color: whitesmoke;
 }
 
-footer{
-    text-align: center;
-    background-color:rgb(32,32,32);
-    color: whitesmoke;
-}*{
-    font-family: system-ui;
+li a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none; /* Para que no tenga estilo el link */
 }
 
 .apartado {
-    background-color: rgb(234, 234, 234);
-    padding: 15px 0px 10px 30px; /*top right bottom left*/
+    /* Estilos para las secciones del contenido */
+    background-color: rgb(234, 234, 234); 
+    padding: 2.5vh 30px; 
     margin-bottom: 10px;
 }
 
-#margen {   
-    margin: 30px 30px; /* top-bottom left-right*/
+#seccio1 {
+    margin-top: 16vh; 
+}
+
+#margen {
+    margin: 30px;
+}
+
+footer {
+    /* Estilos para el pie de página */
+    text-align: center; 
+    background-color: rgb(32, 32, 32); 
+    color: whitesmoke; 
+    position: static; /* Posición estática */
+    bottom: 0; 
+    width: 100%;
 }
