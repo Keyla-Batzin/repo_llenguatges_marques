@@ -1,0 +1,30 @@
+/* Estils generals de la pàgina */
+
+
+header{
+    background-color: rgb(32,32,32);
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    background-color:rgb(32,32,32);
+    color: whitesmoke;
+    height: 25px;    
+}
+
+nav{
+    text-align: center;
+    padding-bottom: 10px;
+    height: 10px;
+    padding-bottom: 15px;
+}
+a{
+    color: whitesmoke;
+}
+
+footer{
+    text-align: center;
+    background-color:rgb(32,32,32);
+    color: whitesmoke;
+}
