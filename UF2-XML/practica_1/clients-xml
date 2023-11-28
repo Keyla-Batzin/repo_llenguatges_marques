@@ -2,7 +2,7 @@
 <!-- Lista de clientes -->
 <clientes>
     <!-- Cliente 1 -->
-    <cliente id="01" category="consumidor">
+    <cliente id="U001" category="consumidor">
         <!-- Información personal del cliente -->
         <nombre lang="es">Jasmin Ortega</nombre>
         <telefono>989 987 623</telefono>
@@ -11,41 +11,37 @@
         <!-- Registro de compras del cliente -->
         <compras>
             <!-- Compra 1 -->
-            <compra id="001">
-                <producto>Shoyu</producto>
-                <precio>350.00</precio>
+            <compra id="C001">
+                <producto ref="P001">Shoyu</producto>
                 <fecha>2023-01-15</fecha>
             </compra>
 
             <!-- Compra 2 -->
-            <compra id="002">
-                <producto>Salasa para ramen</producto>
-                <precio>1200.00</precio>
+            <compra id="C002">
+                <producto ref="P016">Sopa sabor pollo</producto>
                 <fecha>2023-03-22</fecha>
             </compra>
             <!-- ... (más compras) -->
         </compras>
     </cliente>
     <!-- Cliente 2 -->
-    <cliente id="02" category="consumidor">
+    <cliente id="U002" category="consumidor">
         <!-- Información personal del cliente -->
         <nombre lang="es">Edgar Homer</nombre>
-        <telefono>929 917 621</telefono>
+        <telefono>966 917 661</telefono>
         <email>edgarhomer@gmail.com</email>
 
         <!-- Registro de compras del cliente -->
         <compras>
             <!-- Compra 1 -->
-            <compra id="003">
-                <producto>Curry</producto>
-                <precio>350.00</precio>
+            <compra id="C003">
+                <producto ref="P010">Curry</producto>
                 <fecha>2023-02-27</fecha>
             </compra>
 
             <!-- Compra 2 -->
-            <compra id="004">
-                <producto>Menma</producto>
-                <precio>1200.00</precio>
+            <compra id="C015">
+                <producto ref="P015">Menma</producto>
                 <fecha>2023-07-06</fecha>
             </compra>
 
@@ -53,25 +49,23 @@
         </compras>
     </cliente>
     <!-- Cliente 3 -->
-    <cliente id="03" category="consumidor">
+    <cliente id="U003" category="consumidor">
         <!-- Información personal del cliente -->
         <nombre lang="es">Freya Gomez</nombre>
-        <telefono>920 941 625</telefono>
-        <email>edgarhomer@gmail.com</email>
+        <telefono>990 941 015</telefono>
+        <email>freyagomez@gmail.com</email>
 
         <!-- Registro de compras del cliente -->
         <compras>
             <!-- Compra 1 -->
-            <compra id="005">
-                <producto>Fideos sabor pollo</producto>
-                <precio>350.00</precio>
+            <compra id="C005">
+                <producto ref="P006">Fideos sabor pollo</producto>
                 <fecha>2023-02-02</fecha>
             </compra>
 
             <!-- Compra 2 -->
-            <compra id="006">
-                <producto>Fideos extra picantes</producto>
-                <precio>1200.00</precio>
+            <compra id="C006">
+                <producto ref="P009">Fideos extra picantes</producto>
                 <fecha>2023-11-20</fecha>
             </compra>
 
@@ -79,25 +73,23 @@
         </compras>
     </cliente>
     <!-- Cliente 4 -->
-    <cliente id="04" category="consumidor">
+    <cliente id="U004" category="consumidor">
         <!-- Información personal del cliente -->
         <nombre lang="es">Rosa Quintero</nombre>
-        <telefono>912 941 667</telefono>
-        <email>edgarhomer@gmail.com</email>
+        <telefono>901 940 667</telefono>
+        <email>rosaquintero@gmail.com</email>
 
         <!-- Registro de compras del cliente -->
         <compras>
             <!-- Compra 1 -->
-            <compra id="007">
-                <producto>Sopa sabor tenera</producto>
-                <precio>350.00</precio>
+            <compra id="C007">
+                <producto ref="P017">Sopa sabor tenera</producto>
                 <fecha>2023-02-06</fecha>
             </compra>
 
             <!-- Compra 2 -->
-            <compra id="008">
-                <producto>Miso</producto>
-                <precio>1200.00</precio>
+            <compra id="C008">
+                <producto ref="P011">Miso</producto>
                 <fecha>2023-01-30</fecha>
             </compra>
 
@@ -105,25 +97,23 @@
         </compras>
     </cliente>
     <!-- Cliente 5 -->
-    <cliente id="05" category="consumidor">
+    <cliente id="U005" category="consumidor">
         <!-- Información personal del cliente -->
         <nombre lang="es">Pol Nuñez</nombre>
-        <telefono>912 941 667</telefono>
-        <email>edgarhomer@gmail.com</email>
+        <telefono>919 941 627</telefono>
+        <email>polnuñez@gmail.com</email>
 
         <!-- Registro de compras del cliente -->
         <compras>
             <!-- Compra 1 -->
-            <compra id="009">
-                <producto>Sopa sabor tenera</producto>
-                <precio>350.00</precio>
+            <compra id="C009">
+                <producto ref="P008">Sopa sabor tenera</producto>
                 <fecha>2023-02-06</fecha>
             </compra>
 
             <!-- Compra 2 -->
-            <compra id="010">
-                <producto>Miso</producto>
-                <precio>1200.00</precio>
+            <compra id="C010">
+                <producto ref="P014">Ginger</producto>
                 <fecha>2023-01-30</fecha>
             </compra>
 
