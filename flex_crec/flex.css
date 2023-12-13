@@ -1,0 +1,32 @@
+/* Estils generals de la pàgina*/
+
+
+#container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.boto {
+    background-color: crimson;
+    width: 20vh;
+    height: 20vh;
+    margin: 1vh;
+
+    text-align: center;
+
+    
+    font-size:15vh;
+    justify-content: center;
+
+    display: flex;
+    
+}
+
+.boto:hover{
+    width: 42vh;
+    height: 42vh;
+    background-color: green;
+    font-size: 30vh;
+    transition: 1s;
+    text-align: center;
+}
