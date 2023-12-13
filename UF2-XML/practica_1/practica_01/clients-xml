@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<noodelsMaker>
+    <!-- Lista de clientes -->
+    <clientes>
+        <!-- Cliente 1 -->
+        <cliente id="U001" category="consumidor">
+            <!-- Información personal del cliente -->
+            <nombre lang="es">Jasmin Ortega</nombre>
+            <telefono>989 987 623</telefono>
+            <email>jasminortega@gmail.com</email>
+
+            <!-- Registro de compras del cliente -->
+            <compras>
+                <!-- Compra 1 -->
+                <compra id="C001">
+                    <producto ref="P001">Shoyu</producto>
+                    <fecha>2023-01-15</fecha>
+                </compra>
+
+                <!-- Compra 2 -->
+                <compra id="C002">
+                    <producto ref="P016">Sopa sabor pollo</producto>
+                    <fecha>2023-03-22</fecha>
+                </compra>
+                <!-- ... (más compras) -->
+            </compras>
+        </cliente>
+        <!-- Cliente 2 -->
+        <cliente id="U002" category="consumidor">
+            <!-- Información personal del cliente -->
+            <nombre lang="es">Edgar Homer</nombre>
+            <telefono>966 917 661</telefono>
+            <email>edgarhomer@gmail.com</email>
+
+            <!-- Registro de compras del cliente -->
+            <compras>
+                <!-- Compra 1 -->
+                <compra id="C003">
+                    <producto ref="P010">Curry</producto>
+                    <fecha>2023-02-27</fecha>
+                </compra>
+
+                <!-- Compra 2 -->
+                <compra id="C015">
+                    <producto ref="P015">Menma</producto>
+                    <fecha>2023-07-06</fecha>
+                </compra>
+
+                <!-- ... (más compras) -->
+            </compras>
+        </cliente>
+        <!-- Cliente 3 -->
+        <cliente id="U003" category="consumidor">
+            <!-- Información personal del cliente -->
+            <nombre lang="es">Freya Gomez</nombre>
+            <telefono>990 941 015</telefono>
+            <email>freyagomez@gmail.com</email>
+
+            <!-- Registro de compras del cliente -->
+            <compras>
+                <!-- Compra 1 -->
+                <compra id="C005">
+                    <producto ref="P006">Fideos sabor pollo</producto>
+                    <fecha>2023-02-02</fecha>
+                </compra>
+
+                <!-- Compra 2 -->
+                <compra id="C006">
+                    <producto ref="P009">Fideos extra picantes</producto>
+                    <fecha>2023-11-20</fecha>
+                </compra>
+
+                <!-- ... (más compras) -->
+            </compras>
+        </cliente>
+        <!-- Cliente 4 -->
+        <cliente id="U004" category="consumidor">
+            <!-- Información personal del cliente -->
+            <nombre lang="es">Rosa Quintero</nombre>
+            <telefono>901 940 667</telefono>
+            <email>rosaquintero@gmail.com</email>
+
+            <!-- Registro de compras del cliente -->
+            <compras>
+                <!-- Compra 1 -->
+                <compra id="C007">
+                    <producto ref="P017">Sopa sabor tenera</producto>
+                    <fecha>2023-02-06</fecha>
+                </compra>
+
+                <!-- Compra 2 -->
+                <compra id="C008">
+                    <producto ref="P011">Miso</producto>
+                    <fecha>2023-01-30</fecha>
+                </compra>
+
+                <!-- ... (más compras) -->
+            </compras>
+        </cliente>
+        <!-- Cliente 5 -->
+        <cliente id="U005" category="consumidor">
+            <!-- Información personal del cliente -->
+            <nombre lang="es">Pol Nuñez</nombre>
+            <telefono>919 941 627</telefono>
+            <email>polnuñez@gmail.com</email>
+
+            <!-- Registro de compras del cliente -->
+            <compras>
+                <!-- Compra 1 -->
+                <compra id="C009">
+                    <producto ref="P008">Sopa sabor tenera</producto>
+                    <fecha>2023-02-06</fecha>
+                </compra>
+
+                <!-- Compra 2 -->
+                <compra id="C010">
+                    <producto ref="P014">Ginger</producto>
+                    <fecha>2023-01-30</fecha>
+                </compra>
+
+                <!-- ... (más compras) -->
+            </compras>
+        </cliente>
+        <!-- ... (más clientes) -->
+    </clientes>
+    <!-- Se cierra la lista de clientes -->
+
+    <!--Se abre tienda stock-->
+    <tienda>
+        <!-- Empieza aquí la categoría salsa -->
+        <alimento category="salsa">
+            <title lang="es">Salsa soja</title>
+            <precio>2 €</precio>
+        </alimento>
+
+        <alimento category="salsa" id="P001">
+            <title lang="es">Shoyu</title>
+            <precio>2,75 €</precio>
+        </alimento>
+
+        <alimento category="salsa" id="P002">
+            <title lang="es">Siracha</title>
+            <precio>4 €</precio>
+        </alimento>
+
+        <alimento category="salsa" id="P003">
+            <title lang="es">Ra-yu</title>
+            <precio>2 €</precio>
+        </alimento>
+
+        <alimento category="salsa" id="P004">
+            <title lang="es">Teriyaki</title>
+            <precio>2,50 €</precio>
+        </alimento>
+
+        <alimento category="salsa" id="P005">
+            <title lang="es">Salsa para ramen</title>
+            <precio>3,50 €</precio>
+        </alimento>
+
+        <!-- Empieza aquí la categoría fideos -->
+        <alimento category="fideos">
+            <title lang="es">Fideos picantes</title>
+            <precio>2 €</precio>
+        </alimento>
+
+        <alimento category="fideos" id="P006">
+            <title lang="es">Fideos sabor pollo</title>
+            <precio>2 €</precio>
+        </alimento>
+
+        <alimento category="fideos" id="P007">
+            <title lang="es">Fideos sabor marisco</title>
+            <precio>2 €</precio>
+        </alimento>
+
+        <alimento category="fideos" id="P008">
+            <title lang="es">Fideos sabor a ternera</title>
+            <precio>2 €</precio>
+        </alimento>
+
+        <alimento category="fideos" id="P009">
+            <title lang="es">Fideos extra picantes</title>
+            <precio>2 €</precio>
+        </alimento>
+
+        <!-- Empieza aquí la categoría especie -->
+        <alimento category="especie">
+            <title lang="es">Curry</title>
+            <precio>4 €</precio>
+        </alimento>
+
+        <alimento category="especie" id="P011">
+            <title lang="es">Miso</title>
+            <precio>3 €</precio>
+        </alimento>
+
+        <alimento category="especie" id="P012">
+            <title lang="es">Shichimi togarashi</title>
+            <precio>5 €</precio>
+        </alimento>
+
+        <alimento category="especie" id="P013">
+            <title lang="es">Garlic</title>
+            <precio>4,50 €</precio>
+        </alimento>
+
+        <alimento category="especie" id="P014">
+            <title lang="es">Ginger</title>
+            <precio>2,20 €</precio>
+        </alimento>
+
+        <alimento category="especie" id="P015">
+            <title lang="es">Menma</title>
+            <precio>1,75 €</precio>
+        </alimento>
+
+        <!-- Empieza aquí la categoría sopas -->
+        <alimento category="sopas">
+            <title lang="es">Sopa sabor pollo</title>
+            <precio>4 €</precio>
+        </alimento>
+
+        <alimento category="sopas" id="P017">
+            <title lang="es">Sopa sabor ternera</title>
+            <precio>4 €</precio>
+        </alimento>
+
+        <alimento category="sopas" id="P018">
+            <title lang="es">Sopa sabor marisco</title>
+            <precio>4,50 €</precio>
+        </alimento>
+
+        <alimento category="sopas" id="P019">
+            <title lang="es">Sopa sabor verduras</title>
+            <precio>3,50 €</precio>
+        </alimento>
+
+    </tienda>
+    <!--Se cierra tienda stock-->
+</noodelsMaker>
