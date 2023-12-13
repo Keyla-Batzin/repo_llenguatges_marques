@@ -14,12 +14,14 @@
                 <!-- Compra 1 -->
                 <compra id="C001">
                     <producto ref="P001">Shoyu</producto>
+                    <cantidad>1</cantidad>
                     <fecha>2023-01-15</fecha>
                 </compra>
 
                 <!-- Compra 2 -->
                 <compra id="C002">
                     <producto ref="P016">Sopa sabor pollo</producto>
+                    <cantidad>1</cantidad>
                     <fecha>2023-03-22</fecha>
                 </compra>
                 <!-- ... (más compras) -->
@@ -37,12 +39,14 @@
                 <!-- Compra 1 -->
                 <compra id="C003">
                     <producto ref="P010">Curry</producto>
+                    <cantidad>1</cantidad>
                     <fecha>2023-02-27</fecha>
                 </compra>
 
                 <!-- Compra 2 -->
                 <compra id="C015">
                     <producto ref="P015">Menma</producto>
+                    <cantidad>3</cantidad>
                     <fecha>2023-07-06</fecha>
                 </compra>
 
@@ -61,12 +65,14 @@
                 <!-- Compra 1 -->
                 <compra id="C005">
                     <producto ref="P006">Fideos sabor pollo</producto>
+                    <cantidad>1</cantidad>
                     <fecha>2023-02-02</fecha>
                 </compra>
 
                 <!-- Compra 2 -->
                 <compra id="C006">
                     <producto ref="P009">Fideos extra picantes</producto>
+                    <cantidad>4</cantidad>
                     <fecha>2023-11-20</fecha>
                 </compra>
 
@@ -85,12 +91,14 @@
                 <!-- Compra 1 -->
                 <compra id="C007">
                     <producto ref="P017">Sopa sabor tenera</producto>
+                    <cantidad>2</cantidad>
                     <fecha>2023-02-06</fecha>
                 </compra>
 
                 <!-- Compra 2 -->
                 <compra id="C008">
                     <producto ref="P011">Miso</producto>
+                    <cantidad>2</cantidad>
                     <fecha>2023-01-30</fecha>
                 </compra>
 
@@ -109,12 +117,14 @@
                 <!-- Compra 1 -->
                 <compra id="C009">
                     <producto ref="P008">Sopa sabor tenera</producto>
+                    <cantidad>1</cantidad>
                     <fecha>2023-02-06</fecha>
                 </compra>
 
                 <!-- Compra 2 -->
                 <compra id="C010">
                     <producto ref="P014">Ginger</producto>
+                    <cantidad>1</cantidad>
                     <fecha>2023-01-30</fecha>
                 </compra>
 
