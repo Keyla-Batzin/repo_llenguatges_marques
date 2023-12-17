@@ -1,0 +1,42 @@
+.box {
+    background-color: rgb(137, 247, 190);
+    color: white;
+    font-size: 100px;
+    height: 30vh;
+    width: 12vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
+    position: relative;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box:hover {
+    height: 52vh;
+    width: 25vw;
+    background-color: lavender;
+    transition: 1s;
+}
+
+@media(max-width:768px) {
+    .box {
+        height: 30vh;
+        width: 20vw;
+        background-color: rgb(128, 128, 255);
+    }
+}
+
+@media(max-width:480px) {
+    .box {
+        height: 25vh;
+        width: 26vw;
+        background-color: rgb(255, 203, 119);
+    }
+
+}
