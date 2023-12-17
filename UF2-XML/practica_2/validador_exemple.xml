@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Arxiu XML (exemple.xml) -->
+<estudiantes>
+    <estudiant>
+        <nom>Joan</nom>
+        <edat>20</edat>
+        <assignatura>Matemàtiques</assignatura>
+    </estudiant>
+</estudiantes>
+
+<!-- Arxiu de definició RELAX NG (exemple.rng) -->
+element estudiantes {
+    element estudiant {
+      element nom { text },
+      element edat { text },
+      element assignatura { text }
+    }
+  }
