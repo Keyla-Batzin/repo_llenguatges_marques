@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fontsLletres>
+<apuntsUF2>
     <fonts>
         <font>
             <nom>Roboto</nom>
@@ -12,4 +12,21 @@
             <estil>negreta</estil>
         </font>
     </fonts>
-</fontsLletres>
+
+    <configuracio>
+        <idioma>català</idioma>
+        <tema>fosc</tema>
+        <notificacio>
+            <actividades>true</actividades>
+            <to>predeterminat</to>
+        </notificacio>
+        <preferencies>
+            <mostra_publicitat>false</mostra_publicitat>
+            <ordre_menu>
+                <menu>perfil</menu>
+                <menu>config</menu>
+                <menu>ajuda</menu>
+            </ordre_menu>
+        </preferencies>
+    </configuracio>
+</apuntsUF2>

@@ -1,0 +1,27 @@
+{
+    "cotxe":{
+        "marca": "Toyota",
+        "model": "Carmy",
+        "model_tipus": "Sedan",
+        "descompte": "3",
+        "preu": "25000",
+        "preu_moneda": "EUR"
+    },
+
+    "classe": [
+        {
+            "nom_alumne": "Maria",
+            "matricula":"A123",
+            "edat": "22"
+        },
+        {
+            "nom_alumne": "Pere",
+            "matricula":"B456",
+            "edat": "21"
+        },
+        {
+            "nom_profesor": "Dra. Martinez",
+            "departament":"Matemàtiques"
+        }
+    ]
+}
