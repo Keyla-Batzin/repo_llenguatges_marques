@@ -1,42 +1,43 @@
 {
-    "devices":[
+    "device_count": "4",
+    "devices": [
         {
-            "type":"computer",
-            "name":"Matebook",
-            "inches":"13",
-            "stock":"true",
-            "price_currency":"€",
-            "price":"780",
-            "internal_info":"C:\\Documents\\files\\matebook.json"
+            "type": "computer",
+            "name": "Matebook",
+            "inches": "13",
+            "stock": "true",
+            "price_currency": "€",
+            "price": "780",
+            "internal_info": "C:\\Documents\\files\\matebook.json"
         },
         {
-            "type":"computer",
-            "name":"Titan",
-            "company":"Slimbook",
-            "inches":"15.6",
-            "stock":"true",
-            "price_currency":"$",
-            "price":"1949",
-            "slogan":"We've proposed 2 slogans: 'Slimbook Titan: Unleash Power in Every Pixel' OR 'Slimbook Titan: Powerhouse Preformance'"
+            "type": "computer",
+            "name": "Titan",
+            "company": "Slimbook",
+            "inches": "15.6",
+            "stock": "true",
+            "price_currency": "$",
+            "price": "1949",
+            "slogan": "We've proposed 2 slogans: 'Slimbook Titan: Unleash Power in Every Pixel' OR 'Slimbook Titan: Powerhouse Performance'"
         },
         {
-            "type":"tablet",
-            "name":"Matepad",
-            "inches":"10.4",
-            "stock":"false",
-            "price_currency":"€",
-            "price":"null"
+            "type": "tablet",
+            "name": "Matepad",
+            "inches": "10.4",
+            "stock": "false",
+            "price_currency": "€",
+            "price": null
         },
         {
-            "type":"smartphone",
-            "name":"P50 Pocket",
-            "company":"Huawei",
-            "inches":"9",
-            "stock":"true",
-            "price_currency":"€",
-            "discount":"3%",
-            "price":"999",
-            "characteristics":["500mhA battery","Super AMOLED Plus","USB-C"]
+            "type": "smartphone",
+            "name": "P50 Pocket",
+            "company": "Huawei",
+            "inches": "9",
+            "stock": "true",
+            "price_currency": "€",
+            "discount": "3%",
+            "price": "999",
+            "characteristics": ["500mAh battery", "Super AMOLED Plus", "USB-C"]
         }
     ]
 }
