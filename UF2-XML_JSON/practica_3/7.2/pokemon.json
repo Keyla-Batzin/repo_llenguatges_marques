@@ -1,134 +1,117 @@
 {
-    "pokemons":[
+    "pokemons": [
         {
-            "id":"0921",
-            "nombre":"Pawmi",
-            "tipo":"Eléctrico",
-            "peso":"2.5",
-            "peso_medida":"kg",
-            "altura":"0.3",
-            "medida_altura":"metros",
-            "estadisticas":[
+            "id": "0921",
+            "nombre": "Pawmi",
+            "tipo": "Eléctrico",
+            "peso": "2.5",
+            "peso_medida": "kg",
+            "altura": "0.3",
+            "medida_altura": "metros",
+            "estadisticas": ["Velocidad: 60", "Ataque: 50","PS: 45","Defensa: 20"],
+            "movimientos": [
                 {
-                    "nombre":"velocidad",
-                    "valor":"60"
+                    "nom": "Arañazo",
+                    "descripcion": "Arañazo causa daño y no tiene ningún efecto secundario.",
+                    "potencia": "40",
+                    "contacto": "si"
                 },
                 {
-                    "nombre":"ataque",
-                    "valor":"50"
+                    "nom": "Gruñido",
+                    "descripcion": "Gruñido es un movimiento de sonido que baja un nivel el ataque del objetivo",
+                    "potencia": null,
+                    "contacto": "No"
                 },
                 {
-                    "nombre":"PS",
-                    "valor":"45"
+                    "nom": "Impactrueno",
+                    "descripcion":"Impactrueno causa daño y tiene una probabilidad del 10% de paralizar al objetivo.",
+                    "potencia": "40",
+                    "contacto": "No"
                 },
                 {
-                    "nombre":"defensa",
-                    "valor":"20"
+                    "nom": "Ataque rápido",
+                    "descripcion": "Ataque rápido causa daño y es un movimiento de alta prioridad",
+                    "potencia": "40",
+                    "contacto": "Si"
+                },
+                {
+                    "nom": "Carga",
+                    "descripcion":"Carga duplica la potencia del movimiento de tipo eléctrico que se use en el turno siguiente.",
+                    "potencia": null,
+                    "contacto": "No"
+                },
+                {
+                    "nom": "Moflete estático",
+                    "descripcion":"Moflete estático causa daño y siempre paraliza al objetivo.",
+                    "potencia": "20",
+                    "contacto": "Si"
+                },
+                {
+                    "nom": "Excavar",
+                    "descripcion":"El usuario cava en el primer turno y el segundo turno ataca.",
+                    "potencia": "80",
+                    "contacto": "Si"
+                },
+                {
+                    "nom": "Mordisco",
+                    "descripcion":"Mordisco pasa a ser de tipo siniestro y ahora la probabilidad de amedrentar al objetivo es del 30%.",
+                    "potencia": "60",
+                    "contacto": "Si"
+                },
+                {
+                    "nom": "Chispa",
+                    "descripcion":"Chispa causa daño y tiene una probabilidad del 30% de paralizar al objetivo.",
+                    "potencia": "65",
+                    "contacto": "Si"
+                },
+                {
+                    "nom": "Onda trueno",
+                    "descripcion": "Onda trueno paraliza al oponente.",
+                    "potencia": null,
+                    "contacto": "No"
+                },
+                {
+                    "nom": "Danza amiga",
+                    "descripcion":"Danza amiga cambia temporalmente la habilidad del objetivo para que sea la misma que la del usuario",
+                    "potencia": null,
+                    "contacto": "No"
+                },
+                {
+                    "nom": "Atizar",
+                    "descripcion":"Atizar causa daño y no tiene ningún efecto secundario.",
+                    "potencia": "80",
+                    "contacto": "Si"
+                },
+                {
+                    "nom": "Chispazo",
+                    "descripcion":"Chispazo causa daño y tiene una probabilidad del 30% de paralizar al oponente. ",
+                    "potencia": "80",
+                    "contacto": "No"
+                },
+                {
+                    "nom": "Agilidad",
+                    "descripcion":"Agilidad aumenta en dos niveles la velocidad del usuario.",
+                    "potencia": null,
+                    "contacto": "No"
+                },
+                {
+                    "nom": "Voltio cruel",
+                    "descripcion":"Voltio cruel causa daño y el usuario recibe un daño de retroceso igual a 1/4 de los PS restados al objetivo. ",
+                    "potencia": "90",
+                    "contacto": "Si"
                 }
             ],
-            "movimientos":[
+            "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/68/latest/20220601131610/Pawmi.png/300px-Pawmi.pngs",
+            "evoluciones": [
                 {
-                    "nom":"Arañazo",
-                    "descripcion":"Arañazo causa daño y no tiene ningún efecto secundario.",
-                    "potencia":"40",
-                    "contacto":"si"
+                    "identificador": "0922",
+                    "nombre": "Pawmo",
+                    "nivel_necesario": "18"
                 },
                 {
-                    "nom":"Gruñido",
-                    "descripcion":"",
-                    "potencia":"",
-                    "contacto":""
-                },
-                {
-                    "nom":"Impactrueno",
-                    "descripcion":"",
-                    "potencia":"",
-                    "contacto":""
-                },
-                {
-                    "nom":"Ataque rápido",
-                    "descripcion":"",
-                    "potencia":"",
-                    "contacto":""
-                },
-                {
-                    "nom":"Carga",
-                    "descripcion":"",
-                    "potencia":"",
-                    "contacto":""
-                },
-                {
-                    "nom":"Moflete estático",
-                    "descripcion":"",
-                    "potencia":"",
-                    "contacto":""
-                },
-                {
-                    "nom":"Excavar",
-                    "descripcion":"",
-                    "potencia":"",
-                    "contacto":""
-                },
-                {
-                    "nom":"Mordisco",
-                    "descripcion":"",
-                    "potencia":"",
-                    "contacto":""
-                },
-                {
-                    "nom":"Chispa",
-                    "descripcion":"",
-                    "potencia":"",
-                    "contacto":""
-                },
-                {
-                    "nom":"Onda trueno",
-                    "descripcion":"",
-                    "potencia":"",
-                    "contacto":""
-                },
-                {
-                    "nom":"Danza amiga",
-                    "descripcion":"",
-                    "potencia":"",
-                    "contacto":""
-                },
-                {
-                    "nom":"Atizar",
-                    "descripcion":"",
-                    "potencia":"",
-                    "contacto":""
-                },
-                {
-                    "nom":"Chispazo",
-                    "descripcion":"",
-                    "potencia":"",
-                    "contacto":""
-                },
-                {
-                    "nom":"Agilidad",
-                    "descripcion":"",
-                    "potencia":"",
-                    "contacto":""
-                },
-                {
-                    "nom":"Voltio cruel",
-                    "descripcion":"",
-                    "potencia":"",
-                    "contacto":""
-                }
-            ],
-            "imagen":"https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/68/latest/20220601131610/Pawmi.png/300px-Pawmi.pngs",
-            "evoluciones":[
-                {
-                    "identificador":"0922",
-                    "nombre":"Pawmo",
-                    "nivel_necesario":"18"
-                },
-                {
-                    "identificador":"0923",
-                    "nombre":"Pawmot",
-                    "caracteristicas_para_evolucionar":"Al subir un nivel después de dar 1000 pasos en modo enviar Pokémon."
+                    "identificador": "0923",
+                    "nombre": "Pawmot",
+                    "caracteristicas_para_evolucionar": "Al subir un nivel después de dar 1000 pasos en modo enviar Pokémon."
                 }
             ]
         }
