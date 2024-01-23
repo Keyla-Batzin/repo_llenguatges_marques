@@ -1,0 +1,25 @@
+fun getUnitatMesuraAltura(pokemon)
+     return pokemon["medida_altura"]
+
+fun isSegonMovimentDeContacte(pokemon):
+     segonMoviment = [movimientos][1]
+     esContacto = segonMoviment["contacto"]
+     return esContacto
+
+fun getSumaEstadistiques(pokemon):
+     suma = 0;
+     for(int i=0; i < estadisticas[]; i++){
+          valor = estadisticas[i]
+          suma = suma + valor;
+     }
+     return suma;
+
+fun getMitjanaEstadistiques(pokemon):
+     suma = 0;
+     numero = 0;
+     for(int i=0; i < estadisticas[]; i++){
+          valor = estadisticas[i]
+          suma = suma + valor;
+          numero++
+     }
+     return suma/numero;

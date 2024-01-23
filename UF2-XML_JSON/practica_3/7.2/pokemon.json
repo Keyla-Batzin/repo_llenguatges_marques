@@ -8,97 +8,104 @@
             "peso_medida": "kg",
             "altura": "0.3",
             "medida_altura": "metros",
-            "estadisticas": ["Velocidad: 60", "Ataque: 50","PS: 45","Defensa: 20"],
+            "estadisticas":[
+                {
+                    "velocidad":60,
+                    "ataque":50,
+                    "PS":45,
+                    "defensa":20
+                }
+            ],
             "movimientos": [
                 {
                     "nom": "Arañazo",
                     "descripcion": "Arañazo causa daño y no tiene ningún efecto secundario.",
-                    "potencia": "40",
-                    "contacto": "si"
+                    "potencia": 40,
+                    "contacto": true
                 },
                 {
                     "nom": "Gruñido",
                     "descripcion": "Gruñido es un movimiento de sonido que baja un nivel el ataque del objetivo",
                     "potencia": null,
-                    "contacto": "No"
+                    "contacto": true
                 },
                 {
                     "nom": "Impactrueno",
                     "descripcion":"Impactrueno causa daño y tiene una probabilidad del 10% de paralizar al objetivo.",
-                    "potencia": "40",
-                    "contacto": "No"
+                    "potencia": 40,
+                    "contacto": true
                 },
                 {
                     "nom": "Ataque rápido",
                     "descripcion": "Ataque rápido causa daño y es un movimiento de alta prioridad",
-                    "potencia": "40",
-                    "contacto": "Si"
+                    "potencia": 40,
+                    "contacto": true
                 },
                 {
                     "nom": "Carga",
                     "descripcion":"Carga duplica la potencia del movimiento de tipo eléctrico que se use en el turno siguiente.",
                     "potencia": null,
-                    "contacto": "No"
+                    "contacto": true
                 },
                 {
                     "nom": "Moflete estático",
                     "descripcion":"Moflete estático causa daño y siempre paraliza al objetivo.",
-                    "potencia": "20",
-                    "contacto": "Si"
+                    "potencia": 20,
+                    "contacto": true
                 },
                 {
                     "nom": "Excavar",
                     "descripcion":"El usuario cava en el primer turno y el segundo turno ataca.",
-                    "potencia": "80",
-                    "contacto": "Si"
+                    "potencia": 80,
+                    "contacto": true
                 },
                 {
                     "nom": "Mordisco",
                     "descripcion":"Mordisco pasa a ser de tipo siniestro y ahora la probabilidad de amedrentar al objetivo es del 30%.",
-                    "potencia": "60",
-                    "contacto": "Si"
+                    "potencia": 60,
+                    "contacto": true
                 },
                 {
                     "nom": "Chispa",
                     "descripcion":"Chispa causa daño y tiene una probabilidad del 30% de paralizar al objetivo.",
-                    "potencia": "65",
-                    "contacto": "Si"
+                    "potencia": 65,
+                    "contacto": true
                 },
                 {
                     "nom": "Onda trueno",
                     "descripcion": "Onda trueno paraliza al oponente.",
                     "potencia": null,
-                    "contacto": "No"
+                    "contacto": true
                 },
                 {
                     "nom": "Danza amiga",
                     "descripcion":"Danza amiga cambia temporalmente la habilidad del objetivo para que sea la misma que la del usuario",
                     "potencia": null,
-                    "contacto": "No"
+                    "contacto": true
                 },
                 {
                     "nom": "Atizar",
                     "descripcion":"Atizar causa daño y no tiene ningún efecto secundario.",
-                    "potencia": "80",
-                    "contacto": "Si"
+                    "potencia": 80,
+                    "contacto": true
                 },
                 {
                     "nom": "Chispazo",
                     "descripcion":"Chispazo causa daño y tiene una probabilidad del 30% de paralizar al oponente. ",
-                    "potencia": "80",
-                    "contacto": "No"
+                    "potencia": 80,
+                    "contacto": true
                 },
                 {
                     "nom": "Agilidad",
                     "descripcion":"Agilidad aumenta en dos niveles la velocidad del usuario.",
                     "potencia": null,
-                    "contacto": "No"
+                    "contacto": true
                 },
                 {
                     "nom": "Voltio cruel",
                     "descripcion":"Voltio cruel causa daño y el usuario recibe un daño de retroceso igual a 1/4 de los PS restados al objetivo. ",
-                    "potencia": "90",
-                    "contacto": "Si"
+                    "potencia": 90,
+                    "contacto": true
                 }
             ],
             "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/68/latest/20220601131610/Pawmi.png/300px-Pawmi.pngs",
@@ -106,7 +113,7 @@
                 {
                     "identificador": "0922",
                     "nombre": "Pawmo",
-                    "nivel_necesario": "18"
+                    "nivel_necesario": 18
                 },
                 {
                     "identificador": "0923",

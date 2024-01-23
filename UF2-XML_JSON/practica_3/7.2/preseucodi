@@ -1,3 +1,0 @@
-// retorna unitat de mesura - "medida_altura"
-fun getUnitatMesuraAltura(pokemon):
-    pokemonsLista = PokemonsList[]
