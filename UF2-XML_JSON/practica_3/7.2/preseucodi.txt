@@ -1,11 +1,14 @@
+// a
 fun getUnitatMesuraAltura(pokemon)
      return pokemon["medida_altura"]
 
+// b
 fun isSegonMovimentDeContacte(pokemon):
      segonMoviment = [movimientos][1]
      esContacto = segonMoviment["contacto"]
      return esContacto
 
+// c
 fun getSumaEstadistiques(pokemon):
      suma = 0;
      for(int i=0; i < estadisticas[]; i++){
@@ -14,6 +17,7 @@ fun getSumaEstadistiques(pokemon):
      }
      return suma;
 
+// d
 fun getMitjanaEstadistiques(pokemon):
      suma = 0;
      numero = 0;
@@ -23,3 +27,42 @@ fun getMitjanaEstadistiques(pokemon):
           numero++
      }
      return suma/numero;
+
+// e
+fun getPes(llista3Pokemon):
+     sumaPesos = 0
+     for pokemon in llista3Pokemon:
+     pes = pokemon["pes"]
+     sumaPesos = sumaPesos + pes
+     return sumaPesos
+
+// f
+fun isEvolucioPossible(pokemon, nivell):
+     nivellEvolucio = pokemon["evolucions"][0]["nivell"]
+     return nivell >= nivellEvolucio
+
+// g
+fun getPotenciaMesAlta(pokemonsList):
+     potenciaMesAlta = 0
+     pokemonMesPotent = null
+     for pokemon in pokemonsList:
+     potenciaPokemon = calcularPotencia(pokemon)
+     if potenciaPokemon > potenciaMesAlta:
+     potenciaMesAlta = potenciaPokemon
+     pokemonMesPotent = pokemon
+     return pokemonMesPotent
+
+// Funció auxiliar per calcular la potència d'un pokémon
+     fun calcularPotencia(pokemon):
+     potencia = 0
+     moviments = pokemon["moviments"]
+     for moviment in moviments:
+     potenciaMoviment = moviment["potencia"]
+     potencia = potencia + potenciaMoviment
+     return potencia
+
+
+
+
+
+
