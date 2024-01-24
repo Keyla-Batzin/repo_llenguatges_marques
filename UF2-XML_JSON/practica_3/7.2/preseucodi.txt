@@ -10,30 +10,28 @@ fun isSegonMovimentDeContacte(pokemon):
 
 // c
 fun getSumaEstadistiques(pokemon):
-     suma = 0;
-     for(int i=0; i < estadisticas[]; i++){
-          valor = estadisticas[i]
-          suma = suma + valor;
-     }
-     return suma;
-
+     velocitat = pokemon["estadistiques"]["velocitat"]
+     fortalesa = pokemon["estadistiques"]["fortalesa"]
+     precisió = pokemon["estadistiques"]["precisio"]
+     resistencia = pokemon["estadistiques"]["resistencia"]
+     sumaEstadistiques = velocitat + fortalesa + precisió + resistencia
+     return sumaEstadistiques
+ 
 // d
 fun getMitjanaEstadistiques(pokemon):
-     suma = 0;
-     numero = 0;
-     for(int i=0; i < estadisticas[]; i++){
-          valor = estadisticas[i]
-          suma = suma + valor;
-          numero++
-     }
-     return suma/numero;
+     velocitat = pokemon["estadistiques"]["velocitat"]
+     fortalesa = pokemon["estadistiques"]["fortalesa"]
+     precisió = pokemon["estadistiques"]["precisio"]
+     resistencia = pokemon["estadistiques"]["resistencia"]
+     mitjanaEstadistiques = (velocitat + fortalesa + precisió + resistencia) / 4
+     return mitjanaEstadistiques
 
 // e
 fun getPes(llista3Pokemon):
      sumaPesos = 0
      for pokemon in llista3Pokemon:
      pes = pokemon["pes"]
-     sumaPesos = sumaPesos + pes
+     sumaPesos += pes
      return sumaPesos
 
 // f
@@ -42,27 +40,21 @@ fun isEvolucioPossible(pokemon, nivell):
      return nivell >= nivellEvolucio
 
 // g
+fun getPotenciaMoviment(moviment):
+     return moviment["potencia"]
+
 fun getPotenciaMesAlta(pokemonsList):
      potenciaMesAlta = 0
-     pokemonMesPotent = null
+     pokemonMesPotent = None
+
      for pokemon in pokemonsList:
-     potenciaPokemon = calcularPotencia(pokemon)
-     if potenciaPokemon > potenciaMesAlta:
-     potenciaMesAlta = potenciaPokemon
-     pokemonMesPotent = pokemon
-     return pokemonMesPotent
-
-// Funció auxiliar per calcular la potència d'un pokémon
-     fun calcularPotencia(pokemon):
-     potencia = 0
-     moviments = pokemon["moviments"]
+          potenciaTotal = 0
+          moviments = pokemon["moviments"]
+    
      for moviment in moviments:
-     potenciaMoviment = moviment["potencia"]
-     potencia = potencia + potenciaMoviment
-     return potencia
-
-
-
-
-
-
+          potenciaTotal += getPotenciaMoviment(moviment)
+    
+          if potenciaTotal > potenciaMesAlta:
+          potenciaMesAlta = potenciaTotal
+          pokemonMesPotent = pokemon
+     return pokemonMesPotent
