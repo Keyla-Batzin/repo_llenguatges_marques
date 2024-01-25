@@ -1,0 +1,42 @@
+{
+    "cotxe": {
+        "marca": "Toyota",
+        "model": {
+            "tipus": "Sedan",
+            "nom": "Carmy"
+        },
+        "descompte": 3,
+        "preu":{
+            "moneda": "EUR",
+            "cost": 25000
+        }
+    }
+} 
+---> millor versió:
+{
+    "cotxe": {
+        "marca": "Toyota",
+        "model": "Camry",
+        "model_tipus": "Sedan",
+        "descompte": 3,
+        "preu": 25000,
+        "preu_moneda": "EUR"
+    }
+}
+
+{
+    "classe":{
+        "alumne": "Maria",
+        "matricula": "A123",
+        "edat": "22"
+    } 
+    {
+        "alumne": "Pere",
+        "matricula": "B456",
+        "edat": "21"
+    }
+    {
+        "professor": "Dra. Matrínez",
+        "departament": "Matemàtiques"
+    }
+}
