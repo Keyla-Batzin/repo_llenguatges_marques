@@ -1,0 +1,17 @@
+/sistemes_operatius/sistema/nom/node()     -- 1. --
+//nom/node()     -- 1.(otra forma) --
+
+/sistemes_operatius/sistema[2]   -- 2. --
+//sistema[2]   -- 2.(otra forma) --
+
+/sistemes_operatius/sistema[2]/nom/node()   -- 3. --
+//sistema[2]/nom/node()   -- 3.(otra forma) --
+
+/sistemes_operatius/sistema[propietari="Google"]/any_llancament/node()    -- 4. --
+//sistema[Propietari="Google"]/any_llancament/node()      -- 4.(otra forma) --
+
+/sistemes_operatius/sistema[any_llancament > 1900 and any_llancament <= 2000]/propietari/node()   -- 5. --
+//sistema/any_llancament[node()<= 2000]/../propietari/node() -- 5.(otra forma) --
+
+/sistemes_operatius/sistema[@versio = '12']/node()   -- 6. --
+
