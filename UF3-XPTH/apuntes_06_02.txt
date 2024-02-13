@@ -13,5 +13,5 @@
 /sistemes_operatius/sistema[any_llancament > 1900 and any_llancament <= 2000]/propietari/node()   -- 5. --
 //sistema/any_llancament[node()<= 2000]/../propietari/node() -- 5.(otra forma) --
 
-/sistemes_operatius/sistema[@versio = '12']/node()   -- 6. --
+/sistemes_operatius/sistema[@versio = "12"]/nom/node()   -- 6. --
 
