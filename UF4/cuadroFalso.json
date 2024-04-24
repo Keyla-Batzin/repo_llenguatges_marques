@@ -1,0 +1,10 @@
+{
+    "mensaje": "Has encontrado el cuadro, pero es una falsificación. Para resolver el misterio, necesitas actualizar la información del cuadro con el nombre del verdadero autor.",
+    "pista": "El verdadero autor es Van Gogh.",
+    "cuadro": {
+      "id": 1,
+      "titulo": "La noche estrellada",
+      "autor": "desconocido"
+    }
+  }
+  

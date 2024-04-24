@@ -1,0 +1,7 @@
+museu - Solución: GET localhost:3000/entrada_1872
+
+cuadro - Solución: POST localhost:3000/anuncio con el cuerpo {"titulo": "Buscando 'La noche estrellada'", "descripcion": "Se ha perdido en el museo."}
+
+cuadroFalso - Solución: PUT localhost:3000/cuadro/1 con el cuerpo {"autor": "Van Gogh"}
+
+cuadroRobado - Solución: DELETE localhost:3000/cuadro/2

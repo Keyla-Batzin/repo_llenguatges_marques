@@ -1,0 +1,8 @@
+{
+    "mensaje": "Has resuelto el misterio del cuadro falso. Ahora, para salir del museo, necesitas borrar el registro del cuadro robado.",
+    "pista": "El cuadro robado tiene el id 2.",
+    "cuadro_robado": {
+      "id": 2
+    }
+  }
+  
